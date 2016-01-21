@@ -28,6 +28,7 @@
 		B7B9C62A1C5047DD00BCEE73 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B9C6241C5047DD00BCEE73 /* ParseFacebookUtilsV4.framework */; };
 		B7B9C62B1C5047DD00BCEE73 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B9C6251C5047DD00BCEE73 /* ParseTwitterUtils.framework */; };
 		B7B9C62C1C5047DD00BCEE73 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B9C6261C5047DD00BCEE73 /* ParseUI.framework */; };
+		B7B9C62E1C50660000BCEE73 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9C62D1C50660000BCEE73 /* Goal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		B7B9C6241C5047DD00BCEE73 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		B7B9C6251C5047DD00BCEE73 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
 		B7B9C6261C5047DD00BCEE73 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		B7B9C62D1C50660000BCEE73 /* Goal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				B7B9C5E81C50438C00BCEE73 /* AppDelegate.swift */,
 				B7B9C5EA1C50438C00BCEE73 /* ViewController.swift */,
+				B7B9C62D1C50660000BCEE73 /* Goal.swift */,
 				B7B9C5EC1C50438C00BCEE73 /* Main.storyboard */,
 				B7B9C5EF1C50438C00BCEE73 /* Assets.xcassets */,
 				B7B9C5F11C50438C00BCEE73 /* LaunchScreen.storyboard */,
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7B9C5EB1C50438C00BCEE73 /* ViewController.swift in Sources */,
+				B7B9C62E1C50660000BCEE73 /* Goal.swift in Sources */,
 				B7B9C5E91C50438C00BCEE73 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
