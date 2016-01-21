@@ -12,6 +12,8 @@ import ParseUI
 
 class ViewController: UIViewController, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.login()
@@ -21,7 +23,6 @@ class ViewController: UIViewController, PFLogInViewControllerDelegate, PFSignUpV
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
     
     
     

@@ -7,17 +7,18 @@
 //
 
 import UIKit
+import Parse
 
 class Goal {
     
-    var goalName: String
-    var numberTimesCompleted: Int
-    var howManyTimesPerWeek: Int
+    var goalName: String!
+    var numberTimesCompleted: Int = 0
+    var howManyTimesPerWeek: Int!
+    var user: String?
     
-    init(goalName: String, howManyTimesPerWeek: Int) {
+    init(goalName: String, howManytimesPerWeek: Int) {
         self.goalName = goalName
-        self.numberTimesCompleted = 0
-        self.howManyTimesPerWeek = howManyTimesPerWeek
+        self.howManyTimesPerWeek = howManytimesPerWeek
     }
-
+    
 }
